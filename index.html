@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Center</title>
+
+    <style>
+      body,
+      h2,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("imgs/background.png");
+        color: #333;
+      }
+
+      header {
+        background-color: beige;
+        color: black;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header:hover {
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+
+      h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #007bff;
+      }
+
+      p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      a {
+        color: blue;
+        text-decoration: none;
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .centered-image {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .title {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .border-content {
+        padding: 20px;
+      }
+
+      .border-content h3 {
+        color: #e0e9a5;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .border-content p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .course-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .course-item {
+        flex-basis: calc(33.33% - 20px);
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .course-title {
+        color: #007bff;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        text-align: center;
+      }
+
+      .course-description {
+        font-size: 1em;
+        line-height: 1.6;
+        text-align: left;
+        list-style-type: "-";
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Our Learning Center</h1>
+    </header>
+
+    <div class="container">
+      <div class="border-content">
+        <div class="centered-image">
+          <img
+            src="imgs/background1.jpg"
+            alt="Centered Photo"
+            style="
+              width: 400px;
+              height: 200px;
+              border-radius: 1%;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            "
+          />
+        </div>
+        <p>
+          This is a platform that offers a wide range of courses to high school
+          coaches, administrators, officials, students, and parents. Our goal is
+          to provide quality education and support to everyone involved in the
+          learning process.
+        </p>
+        <p class="title">COURSES:</p>
+        <div class="course-container">
+          <div class="course-item">
+            <h3 class="course-title">Software Courses:</h3>
+            <p class="course-description">
+              - Cover topics like programming languages (e.g., Python, Java),
+              web development, and software engineering.<br />
+              - Participants learn to develop applications, websites, and
+              software solutions.<br />
+              - Focus on practical skills, including coding, debugging, and
+              software testing.
+            </p>
+          </div>
+          <div class="course-item">
+            <h3 class="course-title">Language Courses:</h3>
+            <p class="course-description">
+              - Offer language learning in languages like English, Spanish,
+              French, etc.<br />
+              - Teach grammar, vocabulary, pronunciation, and cultural
+              aspects.<br />
+              - Improve participants' communication skills for personal and
+              professional growth.
+            </p>
+          </div>
+          <div class="course-item">
+            <h3 class="course-title">Courses on Scientific Work:</h3>
+            <p class="course-description">
+              - Include natural sciences (biology, chemistry, physics), social
+              sciences, and applied sciences.<br />
+              - Cover research methodologies, data analysis, and scientific
+              writing.<br />
+              - Develop critical thinking and research skills for scientific
+              inquiry.
+            </p>
+          </div>
+        </div>
+        <a href="#courses">View Courses</a>*
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Learning Center. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
